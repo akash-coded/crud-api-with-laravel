@@ -54,3 +54,13 @@ Route::get('/user', [UserController::class, 'index']);
 
 //--8
 Route::get('/user/greet/{name}', [UserController::class, 'greetUser']);
+
+//--9
+Route::get('/accessRequest/showRequestDetails', [UserController::class, 'showRequestDetails']);
+
+//--10
+Route::get('/accessRequest/showQueryParams', [UserController::class, 'showQueryParams']);
+
+//--11
+Route::get('/user/accessRequest/showFullName', [UserController::class, 'showFullName']);
+
